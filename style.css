@@ -1,0 +1,5493 @@
+/*! CSS Used from: https://www.printstop.co.in/templates/css/style.css?1556634345 ; media=screen, print */
+@media screen,
+print {
+  a {
+    background-color: transparent;
+  }
+
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+
+  img {
+    border: 0;
+  }
+
+  pre {
+    overflow: auto;
+  }
+
+  pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+
+  button,
+  input {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+  }
+
+  button {
+    overflow: visible;
+  }
+
+  button {
+    text-transform: none;
+  }
+
+  button {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+
+  input {
+    line-height: normal;
+  }
+
+  input[type="search"] {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: textfield;
+  }
+
+  @media print {
+
+    *,
+    *:before,
+    *:after {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+
+    a[href]:after {
+      content: " ("attr(href) ")";
+    }
+
+    a[href^="javascript:"]:after {
+      content: "";
+    }
+
+    pre {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
+
+    img {
+      page-break-inside: avoid;
+    }
+
+    img {
+      max-width: 100% !important;
+    }
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  input,
+  button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: #23527c;
+    text-decoration: underline;
+  }
+
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  h4 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  ul ul {
+    margin-bottom: 0;
+  }
+
+  pre {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  }
+
+  pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width:768px) {
+    .container {
+      width: 750px;
+    }
+  }
+
+  @media (min-width:992px) {
+    .container {
+      width: 970px;
+    }
+  }
+
+  @media (min-width:1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .col-md-2,
+  .col-sm-3,
+  .col-md-3,
+  .col-sm-4,
+  .col-md-6,
+  .col-sm-8,
+  .col-md-10,
+  .col-sm-12,
+  .col-md-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  @media (min-width:768px) {
+
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-8,
+    .col-sm-12 {
+      float: left;
+    }
+
+    .col-sm-12 {
+      width: 100%;
+    }
+
+    .col-sm-8 {
+      width: 66.66666667%;
+    }
+
+    .col-sm-4 {
+      width: 33.33333333%;
+    }
+
+    .col-sm-3 {
+      width: 25%;
+    }
+  }
+
+  @media (min-width:992px) {
+
+    .col-md-2,
+    .col-md-3,
+    .col-md-6,
+    .col-md-10,
+    .col-md-12 {
+      float: left;
+    }
+
+    .col-md-12 {
+      width: 100%;
+    }
+
+    .col-md-10 {
+      width: 83.33333333%;
+    }
+
+    .col-md-6 {
+      width: 50%;
+    }
+
+    .col-md-3 {
+      width: 25%;
+    }
+
+    .col-md-2 {
+      width: 16.66666667%;
+    }
+  }
+
+  input[type="search"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+
+  .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+  }
+
+  .form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+  }
+
+  .form-control:-ms-input-placeholder {
+    color: #999;
+  }
+
+  .form-control::-webkit-input-placeholder {
+    color: #999;
+  }
+
+  .form-control::-ms-expand {
+    background-color: transparent;
+    border: 0;
+  }
+
+  .form-control[readonly] {
+    background-color: #eee;
+    opacity: 1;
+  }
+
+  input[type="search"] {
+    -webkit-appearance: none;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+
+  .btn:focus,
+  .btn:active:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  }
+
+  .btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+  }
+
+  .btn-danger:focus {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #761c19;
+  }
+
+  .btn-danger:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+  }
+
+  .btn-danger:active {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+  }
+
+  .btn-danger:active:hover,
+  .btn-danger:active:focus {
+    color: #fff;
+    background-color: #ac2925;
+    border-color: #761c19;
+  }
+
+  .btn-danger:active {
+    background-image: none;
+  }
+
+  .collapse {
+    display: none;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  }
+
+  .dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+  }
+
+  .dropdown-menu>li>a:hover,
+  .dropdown-menu>li>a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+  }
+
+  .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+  .nav>li {
+    position: relative;
+    display: block;
+  }
+
+  .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+  }
+
+  .nav>li>a:hover,
+  .nav>li>a:focus {
+    text-decoration: none;
+    background-color: #eee;
+  }
+
+  @media (min-width:768px) {
+    .navbar-header {
+      float: left;
+    }
+  }
+
+  .navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+  }
+
+  @media (min-width:768px) {
+    .navbar-collapse {
+      width: auto;
+      border-top: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    .navbar-collapse.collapse {
+      display: block !important;
+      height: auto !important;
+      padding-bottom: 0;
+      overflow: visible !important;
+    }
+
+    .navbar-fixed-top .navbar-collapse {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+  .navbar-fixed-top .navbar-collapse {
+    max-height: 340px;
+  }
+
+  @media (max-device-width:480px) and (orientation:landscape) {
+    .navbar-fixed-top .navbar-collapse {
+      max-height: 200px;
+    }
+  }
+
+  .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  @media (min-width:768px) {
+    .container>.navbar-header {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .navbar-brand:hover,
+  .navbar-brand:focus {
+    text-decoration: none;
+  }
+
+  .navbar-brand>img {
+    display: block;
+  }
+
+  @media (min-width:768px) {
+    .navbar>.container .navbar-brand {
+      margin-left: -15px;
+    }
+  }
+
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+
+  .navbar-toggle:focus {
+    outline: 0;
+  }
+
+  @media (min-width:768px) {
+    .navbar-toggle {
+      display: none;
+    }
+  }
+
+  .navbar-nav {
+    margin: 7.5px -15px;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+  }
+
+  @media (min-width:768px) {
+    .navbar-nav {
+      float: left;
+      margin: 0;
+    }
+
+    .navbar-nav>li {
+      float: left;
+    }
+
+    .navbar-nav>li>a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+
+  .navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  @media (min-width:768px) {
+    .navbar-right {
+      float: right !important;
+      margin-right: -15px;
+    }
+  }
+
+  .navbar-default .navbar-brand {
+    color: #777;
+  }
+
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    color: #777;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover,
+  .navbar-default .navbar-nav>li>a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: #ddd;
+  }
+
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+  }
+
+  .navbar-default .navbar-collapse {
+    border-color: #e7e7e7;
+  }
+
+  .container:before,
+  .container:after,
+  .row:before,
+  .row:after,
+  .nav:before,
+  .nav:after,
+  .navbar-header:before,
+  .navbar-header:after,
+  .navbar-collapse:before,
+  .navbar-collapse:after {
+    display: table;
+    content: " ";
+  }
+
+  .container:after,
+  .row:after,
+  .nav:after,
+  .navbar-header:after,
+  .navbar-collapse:after {
+    clear: both;
+  }
+
+  .pull-right {
+    float: right !important;
+  }
+
+  .pull-left {
+    float: left !important;
+  }
+
+  .visible-xs {
+    display: none !important;
+  }
+
+  @media (max-width:767px) {
+    .visible-xs {
+      display: block !important;
+    }
+  }
+
+  @media (max-width:767px) {
+    .hidden-xs {
+      display: none !important;
+    }
+  }
+
+  @media (min-width:768px) and (max-width:991px) {
+    .hidden-sm {
+      display: none !important;
+    }
+  }
+
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+  }
+
+  .pull-right {
+    float: right;
+  }
+
+  .pull-left {
+    float: left;
+  }
+
+  .fa-bars:before {
+    content: "\f0c9";
+  }
+
+  .fa-ellipsis-v:before {
+    content: "\f142";
+  }
+
+  [class^="cicon-"],
+  [class*=" cicon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .tt-dropdown-menu {
+    text-align: left;
+  }
+
+  .typeahead,
+  .tt-hint {
+    height: 25px;
+    padding: 4px 10px;
+  }
+
+  .tt-hint {
+    color: #999;
+    width: 100%;
+  }
+
+  .tt-dropdown-menu {
+    width: 100%;
+    margin-top: 2px;
+    padding: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .2);
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+  }
+
+  .btn-darkblue {
+    background-color: #34495e;
+    *background-color: #34495e;
+    border-color: #2c3e50;
+    color: #fff;
+  }
+
+  .btn-darkblue:hover,
+  .btn-darkblue:focus,
+  .btn-darkblue:active {
+    color: #fff;
+    background-color: #2c3e50;
+    *background-color: #233140;
+  }
+
+  .btn-darkblue:active {
+    background-color: #1a242f \9;
+  }
+
+  .dropdown-menu {
+    z-index: 2000;
+  }
+
+  .navbar-brand {
+    max-width: 200px;
+    padding: 7px 15px;
+    width: auto;
+    height: auto;
+  }
+
+  @media screen and (max-width:480px) {
+    .navbar-brand {
+      width: 55%;
+    }
+  }
+
+  @media screen and (max-width:767px) {
+    .navbar-brand {
+      max-width: 100% !important;
+      width: 55%;
+      padding: 10px 5px;
+    }
+
+    .navbar-brand img {
+      max-width: 165px;
+      margin: 0 auto;
+    }
+  }
+
+  .leftbar-toggle,
+  .topnav .navbar-toggle {
+    margin: 8px 15px;
+    padding: 9px 10px;
+  }
+
+  @media (max-width:768px) {
+    h4 {
+      font-size: 14px;
+    }
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/themes/printstop/css/theme.css?1582636444 ; media=screen, print */
+@media screen,
+print {
+  h4 {
+    font-family: raleway, sans-serif;
+  }
+
+  a {
+    color: #666;
+  }
+
+  a:hover,
+  a:focus {
+    color: #da251d;
+    outline: none;
+    text-decoration: none;
+  }
+
+  a:active,
+  .btn:focus,
+  .btn:hover {
+    outline: 0 !important;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .form-control::-webkit-input-placeholder {
+    color: #333;
+  }
+
+  .form-control:-moz-placeholder {
+    color: #333;
+    opacity: 1;
+  }
+
+  .form-control::-moz-placeholder {
+    color: #333;
+    opacity: 1;
+  }
+
+  .form-control:-ms-input-placeholder {
+    color: #333;
+  }
+
+  #header_search_box .form-control::-webkit-input-placeholder {
+    color: #999;
+  }
+
+  #header_search_box .form-control:-moz-placeholder {
+    color: #999;
+    opacity: 1;
+  }
+
+  #header_search_box .form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+  }
+
+  #header_search_box .form-control:-ms-input-placeholder {
+    color: #999;
+  }
+
+  .btn {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 6px 18px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+
+  .btn-danger {
+    background-color: #da251d;
+    border-color: #da251d;
+    color: #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    font-family: raleway, sans-serif;
+    padding: 6px 10px;
+  }
+
+  .btn-danger:hover,
+  .btn-danger:focus,
+  .btn-danger:active {
+    background-color: #af251b;
+    border-color: #af251b;
+  }
+
+  .btn-darkblue {
+    background: #3eab0e;
+    border-color: #3eab0e;
+    font-family: raleway, sans-serif;
+    border-radius: 0;
+    color: #fff;
+  }
+
+  .btn-darkblue:hover,
+  .btn-darkblue:focus,
+  .btn-darkblue:active {
+    background: #348b0e;
+    border-color: #348b0e;
+  }
+
+  .navbar-nav>li {
+    font-size: 15px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    color: rgba(0, 0, 0, .5);
+    font-size: 22px;
+    padding: 0 15px 4px;
+    position: relative;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .navbar-default .navbar-nav>li>a:focus {
+    color: rgba(0, 0, 0, .5);
+  }
+
+  .navbar-default .navbar-nav>li>a.cicon-cart {
+    font-size: 27px;
+    padding: 0 25px;
+  }
+
+  .topnav .navbar-nav>li>a .cart {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    background: #da251e;
+    color: #fff !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover,
+  .navbar-default .navbar-nav>li>a:hover span {
+    color: #da251d;
+  }
+
+  .topnav .navbar-right {
+    margin-right: 0;
+  }
+
+  .nav>li>a:hover,
+  .nav>li>a:focus {
+    background-color: #fff;
+    text-decoration: none;
+  }
+
+  .topnav .navbar-nav>li>a {
+    height: 60px;
+  }
+
+  .topnav .navbar-nav>li>a.contacts {
+    padding-right: 8px;
+  }
+
+  .products-dropdown .container {
+    padding: 0;
+  }
+
+  .products-dropdown {
+    max-height: 150px;
+    transition-property: all;
+    overflow: hidden;
+    width: 100%;
+    float: left;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, .5, 1);
+    text-align: center;
+  }
+
+  #category_menu_collapse {
+    width: 100%;
+    text-align: center;
+  }
+
+  #category_menu_collapse img {
+    margin: 0 auto;
+  }
+
+  #category_menu_collapse li a img {
+    width: inherit;
+    padding-bottom: 5px;
+  }
+
+  #category_menu_collapse li .hover-text a img {
+    padding-bottom: 0;
+    display: block;
+    min-height: 98px;
+    width: auto;
+  }
+
+  #category_menu_collapse li {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 300;
+    margin: 0 0 0;
+    line-height: 16px;
+    position: inherit;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    float: none;
+    display: inline-block;
+  }
+
+  #category_menu_collapse li span {
+    display: inline-block;
+  }
+
+  #category_menu_collapse li .hover-text span {
+    display: inline-block;
+    width: auto;
+    color: #fff;
+  }
+
+  #category_menu_collapse li.header_prod_cat:first-child>a {
+    font-weight: 600;
+    color: #333;
+  }
+
+  #category_menu_collapse li a {
+    color: #666;
+    display: block;
+    padding: 13px 20px 10px;
+    height: auto;
+    font-size: 14px;
+    line-height: inherit;
+    border-bottom: 3px solid transparent;
+  }
+
+  #category_menu_collapse li:hover a {
+    text-decoration: none;
+    border-bottom: 3px solid #da251e;
+  }
+
+  #category_menu_collapse li:hover .hover-text a {
+    text-decoration: none;
+    border-bottom: 0 solid #da251e;
+    padding: 0 !important;
+    display: block;
+    min-height: inherit;
+  }
+
+  #category_menu_collapse li .hover-text {
+    position: absolute;
+    width: 100%;
+    display: none;
+    background: #ededed;
+    z-index: -999999;
+    left: 0;
+    padding: 20px 0;
+    text-align: left;
+    cursor: auto;
+  }
+
+  #category_menu_collapse li:hover .hover-text {
+    z-index: 999999;
+    -webkit-box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .27);
+    -moz-box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .27);
+    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .27);
+    border-top: 1px solid #efefef;
+  }
+
+  #category_menu_collapse li .hover-text ul {
+    width: auto;
+    float: left;
+    padding: 0 45px 0 0;
+    margin-top: 0;
+  }
+
+  #category_menu_collapse li .hover-text li {
+    height: auto;
+    width: auto;
+    display: block;
+    list-style: none;
+    padding: 8px 0;
+    text-align: left;
+    margin: 0;
+  }
+
+  #category_menu_collapse li .hover-text li a {
+    min-height: inherit;
+    border-bottom: 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  #category_menu_collapse li .hover-text li a.all-product {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  #category_menu_collapse li .hover-text li a:hover {
+    color: #e84748;
+  }
+
+  #category_menu_collapse li.group_cat ul {
+    width: 100%;
+  }
+
+  #category_menu_collapse li.group_cat .hover-text ul:last-child ul {
+    padding: 0;
+  }
+
+  #category_menu_collapse li.group_cat .cat-pro>ul>li {
+    float: left;
+    width: auto;
+    padding: 0 40px 0 0;
+    min-width: 150px;
+  }
+
+  #category_menu_collapse li.group_cat .cat-pro>ul>li>a {
+    line-height: 35px;
+  }
+
+  #category_menu_collapse li.group_cat .cat-pro li li {
+    width: 100%;
+    padding: 7px 0 8px;
+  }
+
+  #category_menu_collapse li.group_cat li:first-child a {
+    padding-top: 0;
+    line-height: inherit;
+  }
+
+  .nav-img-583 {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .nav-img {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .nav-caption {
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background: rgba(0, 0, 0, .7);
+    padding: 10px 15px;
+    width: 100%;
+    line-height: 20px;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+  }
+
+  .text-23 {
+    font-size: 23px;
+    font-weight: 700;
+  }
+
+  .search {
+    padding: 7px 10px 6px;
+    font-size: 12px;
+  }
+
+  .topnav .navbar-nav>li>a:hover .cart {
+    color: #da251d;
+  }
+
+  .topnav .search i {
+    font-size: 23px;
+    color: rgba(0, 0, 0, .5);
+    line-height: 34px;
+  }
+
+  .topnav .search:hover i {
+    color: #da251d;
+  }
+
+  .main-search .tt-hint,
+  .main-search .form-control {
+    background: 0 0 !important;
+    border: 0 !important;
+  }
+
+  .topnav .dropdown-menu {
+    top: 98%;
+    display: none;
+    right: -30%;
+    text-align: center;
+  }
+
+  .topnav .dropdown-menu,
+  .main-search .tt-dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #9d9d9d;
+    border-radius: 0;
+    margin-top: -1px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+
+  .topnav .dropdown-menu>li>a {
+    color: #333;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 5px;
+    border-bottom: 1px solid #cfcfcf;
+  }
+
+  .topnav .dropdown-menu>li:last-child>a {
+    border: 0;
+  }
+
+  #header_search_box {
+    bottom: -119px;
+    max-width: 300px;
+    position: absolute;
+    right: 0;
+    z-index: 99;
+  }
+
+  .navbar-brand {
+    padding: 11px 15px 4px;
+  }
+
+  .navbar-brand>img {
+    height: 39px;
+  }
+
+  .tagline {
+    color: #666;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    padding-top: 6px;
+    position: relative;
+    text-align: left;
+    width: 14%;
+  }
+
+  .cms-links {
+    padding-top: 10px;
+  }
+
+  .main-nav .navbar-nav>li span {
+    font-size: 14px;
+    font-family: raleway, sans-serif;
+    display: block;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .main-nav .cicon-cart::before,
+  .main-nav .cicon-call::before,
+  .main-nav .cicon-login::before {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 27px;
+  }
+
+  .form-control {
+    border-radius: 0;
+    border-color: rgba(132, 132, 132, .4);
+  }
+
+  .form-control:focus {
+    border-color: #999;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .075) inset, 0 0 2px rgba(51, 51, 51, .4);
+  }
+
+  .dropdown-menu>li:hover a,
+  .dropdown-menu>li:focus a {
+    background: #e8e8e8;
+  }
+
+  .hover-text .container {
+    padding: 0 15px;
+  }
+
+  .tagline::before {
+    border-left: 1px solid #dbdbdb;
+    content: "";
+    height: 70%;
+    left: 0;
+    position: absolute;
+    top: 25%;
+  }
+
+  .tagline::after {
+    border-right: 1px solid #dbdbdb;
+    content: "";
+    height: 70%;
+    right: 0;
+    position: absolute;
+    top: 25%;
+  }
+
+  .main-search #header_search_box {
+    bottom: 0;
+    padding: 10px 0 7px;
+    position: relative;
+  }
+
+  .main-search .twitter-typeahead {
+    background: transparent;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 4px;
+    width: 100%;
+  }
+
+  .main-search .twitter-typeahead:before {
+    content: "\e63e";
+    font-family: icomoon;
+    display: inline-block;
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+    top: 5px;
+    left: 10px;
+  }
+
+  .main-search #header_search_box .typeahead,
+  .main-search #header_search_box .tt-hint {
+    height: 35px;
+    padding-left: 35px;
+  }
+
+  .contacts>span:first-child {
+    padding-left: 15px;
+  }
+
+  .contacts>span:last-child {
+    color: #279fe0 !important;
+    font-size: 13px !important;
+    top: -5px;
+    position: relative;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+  .cicon-call::before {
+    top: 0 !important;
+  }
+
+  .cicon-call {
+    font-size: 20px;
+    left: 0;
+    padding-right: 29px;
+    position: relative;
+    top: 6px;
+  }
+
+  #header_search_box .form-control:focus {
+    box-shadow: none;
+  }
+
+  .topnav .navbar-nav>li>a .cart {
+    line-height: 20px;
+  }
+
+  @media screen and (min-width:1440px) {
+
+    .products-dropdown .container,
+    #category_menu_collapse .hover-text .container {
+      margin: 0 auto;
+      width: 1440px;
+    }
+
+    .container {
+      width: 1440px;
+      padding: 0 15px;
+    }
+
+    #category_menu_collapse li {
+      margin: 0 0 0;
+      float: none;
+      display: inline-block;
+    }
+  }
+
+  @media screen and (max-width:1440px) {
+    .container {
+      width: 100%;
+    }
+
+    header .container {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .products-dropdown .hover-text .container {
+      padding-left: 55px;
+      padding-right: 45px;
+    }
+
+    .tagline {
+      width: 15%;
+    }
+
+    #category_menu_collapse li.group_cat .cat-pro>ul>li {
+      padding: 0 25px 0 0;
+    }
+  }
+
+  @media screen and (min-width:1280px) and (max-width:1440px) {
+    #category_menu_collapse li a {
+      padding: 16px 10px 8px !important;
+      font-size: 14px !important;
+    }
+
+    .main-nav .navbar-nav>li span {
+      font-size: 14px !important;
+    }
+
+    .tagline {
+      width: 17% !important;
+    }
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1400px) {
+    #category_menu_collapse li a {
+      padding: 18px 12px 13px;
+      font-size: 12px;
+    }
+
+    .main-nav .navbar-nav>li span {
+      font-size: 12px;
+    }
+
+    .nav-img-583 {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .cms-links {
+      padding-left: 10px;
+    }
+
+    #category_menu_collapse li .hover-text li {
+      padding: 8px 0;
+    }
+
+    #category_menu_collapse li .hover-text .nav-img img {
+      max-height: 190px;
+    }
+
+    .tagline {
+      width: 21%;
+    }
+  }
+
+  @media screen and (min-width:992px) and (max-width:1024px) {
+    #category_menu_collapse li a {
+      padding: 18px 5px;
+      font-size: 12px;
+    }
+
+    .main-nav .navbar-nav>li span {
+      font-size: 12px;
+    }
+
+    .tagline {
+      font-size: 12px;
+      width: 17%;
+    }
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .navbar-default .navbar-nav>li>a {
+      padding: 0 10px 4px;
+    }
+  }
+
+  @media only screen and (min-width:768px) and (max-width:1023px) {
+    .nav-img-583 {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #category_menu_collapse li .hover-text li {
+      padding: 4px 0;
+    }
+
+    #category_menu_collapse li {
+      font-size: 12px;
+      margin: 25px 8px 5px;
+    }
+
+    #category_menu_collapse li:first-child>a {
+      padding-top: 0;
+      font-size: 12px;
+      height: 36px;
+    }
+
+    #category_menu_collapse li span {
+      width: 60px;
+      font-size: 12px;
+      height: 36px;
+    }
+
+    #category_menu_collapse li a {
+      padding: 0 0;
+    }
+
+    #category_menu_collapse li .hover-text li a {
+      height: auto;
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    #category_menu_collapse li {
+      font-size: 12px;
+      margin: 25px 8px 5px;
+    }
+
+    #category_menu_collapse li:first-child>a {
+      padding-top: 0;
+      font-size: 12px;
+      height: 36px;
+    }
+
+    #category_menu_collapse li .hover-text li a {
+      height: auto;
+    }
+
+    .products-dropdown .hover-text .container {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    #category_menu_collapse li a {
+      padding: 0 0;
+    }
+
+    #category_menu_collapse li a img {
+      max-width: 100%;
+    }
+
+    .mobile-menu {
+      position: absolute;
+      width: 93.3%;
+    }
+
+    .cms-links {
+      padding-left: 30px;
+    }
+
+    .cms-links {
+      padding-left: 0;
+    }
+
+    .topnav .navbar-collapse li a {
+      text-align: left !important;
+    }
+
+    header .container {
+      padding: 0 20px;
+    }
+
+    .topnav .btn-darkblue {
+      margin: 0 5px !important;
+    }
+
+    .search {
+      padding: 10px 12px 6px;
+    }
+
+    .btn.btn-darkblue.visible-xs {
+      padding-left: 0;
+    }
+
+    .topnav .btn-darkblue {
+      background-color: transparent;
+      border: 0;
+      color: #818181;
+      font-size: 25px;
+      margin: 0 20px 0 5px;
+      padding: 12px 10px 7px;
+    }
+  }
+
+  @media only screen and (max-width:767px) {
+    .search {
+      position: relative !important;
+    }
+
+    #header_search_box {
+      bottom: -54px;
+      right: 41px !important;
+    }
+
+    .cicon-call {
+      left: 0;
+      padding-right: 0;
+      top: inherit;
+    }
+
+    #header_search_box .twitter-typeahead {
+      background: #3b3b3b;
+    }
+
+    #header_search_box .typeahead,
+    #header_search_box .tt-hint {
+      height: 55px;
+      line-height: 50px;
+      color: #fff;
+      padding: 4px 20px;
+      background: 0 0 !important;
+    }
+  }
+
+  @media only screen and (min-width:600px) and (max-width:767px) {
+    .topnav .navbar-collapse li a {
+      font-size: 13px;
+      color: #fff;
+      padding: 8px 20px;
+      text-transform: uppercase;
+      display: block;
+      position: relative;
+      font-weight: 600;
+    }
+
+    .topnav .navbar-collapse {
+      background: #da251d;
+      border-color: #da251d;
+    }
+
+    .topnav .navbar-collapse ul {
+      padding: 0;
+      margin-top: 0;
+    }
+
+    .topnav .navbar-collapse li {
+      list-style: none;
+    }
+
+    .topnav.navbar-default .navbar-nav>li>a:hover,
+    .topnav.navbar-default .navbar-nav>li>a:focus {
+      color: rgba(255, 255, 255, .7);
+      text-decoration: none;
+    }
+
+    .topnav .cms-links.hidden-xs {
+      display: block !important;
+    }
+
+    .navbar-default .mobile-menu .navbar-nav>li>a {
+      line-height: 23px;
+      min-height: 35px;
+    }
+
+    .navbar-default .mobile-menu .navbar-nav>li>a {
+      height: auto;
+    }
+  }
+
+  @media only screen and (max-width:600px) {
+    .navbar-brand {
+      width: 36%;
+    }
+
+    .navbar-brand img {
+      margin: inherit;
+    }
+
+    .topnav .btn-darkblue:hover,
+    .topnav .btn-darkblue:focus,
+    .topnav .btn-darkblue:active {
+      background-color: transparent;
+      color: #da261e;
+    }
+
+    .topnav .navbar-collapse li a {
+      font-size: 13px;
+      color: #fff;
+      padding: 8px 20px;
+      text-transform: uppercase;
+      display: block;
+      position: relative;
+      font-weight: 600;
+    }
+
+    .topnav .navbar-collapse {
+      background: #da251d;
+      border-color: #da251d;
+    }
+
+    .topnav .navbar-collapse ul {
+      padding: 0;
+      margin-top: 0;
+    }
+
+    .topnav .navbar-collapse li {
+      list-style: none;
+    }
+
+    .topnav.navbar-default .navbar-nav>li>a:hover,
+    .topnav.navbar-default .navbar-nav>li>a:focus {
+      color: rgba(255, 255, 255, .7);
+      text-decoration: none;
+    }
+
+    .topnav .cms-links.hidden-xs {
+      display: block !important;
+    }
+
+    .cms-links {
+      padding-top: 0;
+    }
+
+    #header_search_box {
+      bottom: -52px;
+      right: 77px;
+    }
+
+    .search {
+      padding: 12px 15px;
+    }
+
+    .cicon-call::before {
+      top: inherit;
+    }
+
+    .topnav .navbar-collapse {
+      margin: 0 -20px;
+    }
+
+    .navbar-brand {
+      padding: 6px 0;
+    }
+
+    .cms-links .navbar-nav li span {
+      background: none repeat scroll 0 0 #fff;
+      border-radius: 50%;
+      color: #000;
+      display: inline-block;
+      height: 20px;
+      line-height: 19px;
+      margin-left: 5px;
+      text-align: center;
+      width: 20px;
+    }
+
+    .navbar-default .mobile-menu .navbar-nav>li>a {
+      line-height: 23px;
+      min-height: inherit;
+      height: auto;
+    }
+
+    .cicon-login::before {
+      position: inherit;
+    }
+  }
+
+  @media only screen and (max-width:420px) {
+    .mobile-menu {
+      position: absolute;
+      width: 87.5%;
+    }
+  }
+
+  .topnav .navbar-nav>li>a.enterprise {
+    line-height: 15px;
+    padding-top: 5px;
+  }
+
+  .topnav .navbar-nav>li>a.enterprise span {
+    color: #fff;
+    height: auto;
+  }
+
+  .topnav .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .topnav .navbar-nav>li>a.enterprise {
+    height: auto;
+  }
+
+  .topnav .navbar-nav>li>a.enterprise {
+    text-transform: none;
+  }
+
+  .topnav .navbar-nav>li>a.enterprise:hover {
+    background: #333;
+    border-color: #333;
+  }
+
+  .topnav .navbar-nav>li>a.enterprise:hover span {
+    color: #fff;
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/thirdparty/css/mediaBoxes.css?1546617495 ; media=screen, print */
+@media screen,
+print {
+  .fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+  }
+
+  .pull-right {
+    float: right;
+  }
+
+  .pull-left {
+    float: left;
+  }
+
+  .fa-bars:before {
+    content: "\f0c9";
+  }
+
+  .fa-ellipsis-v:before {
+    content: "\f142";
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/themes/printstop/css/icomoon.css?1550488431 ; media=screen, print */
+@media screen,
+print {
+
+  [class^=cicon-],
+  [class*=" cicon-"] {
+    font-family: icomoon !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .cicon-call:before {
+    content: "\e62a";
+  }
+
+  .cicon-cart:before {
+    content: "\e62b";
+  }
+
+  .cicon-login:before {
+    content: "\e630";
+  }
+
+  .cicon-search:before {
+    content: "\e63e";
+  }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.eot#iefix&v=4.6.3') format('embedded-opentype'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('https://www.printstop.co.in/thirdparty/css/fonts/icomoon.eot?fre5o4');
+  src: url('https://www.printstop.co.in/thirdparty/css/fonts/icomoon.eot?fre5o4#iefix') format('embedded-opentype'), url('https://www.printstop.co.in/thirdparty/css/fonts/icomoon.ttf?fre5o4') format('truetype'), url('https://www.printstop.co.in/thirdparty/css/fonts/icomoon.woff?fre5o4') format('woff'), url('https://www.printstop.co.in/thirdparty/css/fonts/icomoon.svg?fre5o4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: icomoon;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/icomoon.eot?lnuhx5);
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/icomoon.eot?lnuhx5#iefix) format('embedded-opentype'), url(https://www.printstop.co.in/themes/printstop/fonts/icomoon.ttf?lnuhx5) format('truetype'), url(https://www.printstop.co.in/themes/printstop/fonts/icomoon.woff?lnuhx5) format('woff'), url(https://www.printstop.co.in/themes/printstop/fonts/icomoon.svg?lnuhx5#icomoon) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-thin.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extralight.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-light.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-medium.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-semibold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-bold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extrabold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-heavy.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*! CSS Used from: https://www.printstop.co.in/templates/css/style.css?1556634345 ; media=screen, print */
+@media screen,
+print {
+  a {
+    background-color: transparent;
+  }
+
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+
+  h1 {
+    margin: .67em 0;
+    font-size: 2em;
+  }
+
+  @media print {
+
+    *,
+    *:before,
+    *:after {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+
+    a[href]:after {
+      content: " ("attr(href) ")";
+    }
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: #23527c;
+    text-decoration: underline;
+  }
+
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  h1 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width:768px) {
+    .container {
+      width: 750px;
+    }
+  }
+
+  @media (min-width:992px) {
+    .container {
+      width: 970px;
+    }
+  }
+
+  @media (min-width:1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+  .breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+
+  .breadcrumb>li {
+    display: inline-block;
+  }
+
+  .breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+  }
+
+  .breadcrumb>.active {
+    color: #777;
+  }
+
+  .container:before,
+  .container:after {
+    display: table;
+    content: " ";
+  }
+
+  .container:after {
+    clear: both;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .page-header h1 {
+    margin-top: 0;
+  }
+
+  @media (max-width:768px) {
+    h1 {
+      font-size: 24px;
+    }
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/themes/printstop/css/theme.css?1582636444 ; media=screen, print */
+@media screen,
+print {
+  h1 {
+    font-family: raleway, sans-serif;
+  }
+
+  a {
+    color: #666;
+  }
+
+  a:hover,
+  a:focus {
+    color: #da251d;
+    outline: none;
+    text-decoration: none;
+  }
+
+  a:active {
+    outline: 0 !important;
+  }
+
+  h1 {
+    font-size: 25px;
+    color: #525252;
+  }
+
+  .page-header .container {
+    position: relative;
+  }
+
+  .page-header h1 {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 50px;
+    margin: 0;
+    color: #000;
+    line-height: 35px;
+  }
+
+  .breadcrumb {
+    margin: 0;
+    padding: 0 15px 9px 4px;
+    background-color: transparent;
+    color: #aaa;
+  }
+
+  .breadcrumb>li {
+    text-transform: lowercase;
+    font-size: 12px;
+  }
+
+  .breadcrumb>li+li::before {
+    content: ">";
+    padding: 0 8px;
+    color: rgba(0, 0, 0, .4);
+    font-size: 15px;
+  }
+
+  .breadcrumb>li a {
+    color: rgba(0, 0, 0, .4);
+  }
+
+  .breadcrumb>li:hover a {
+    color: #000;
+  }
+
+  .breadcrumb>.active {
+    color: #777;
+  }
+
+  @media screen and (min-width:1440px) {
+    .container {
+      width: 1440px;
+      padding: 0 15px;
+    }
+
+    .page-header h1 {
+      padding: 0 15px 0 0;
+    }
+  }
+
+  @media screen and (max-width:1440px) {
+    .container {
+      width: 100%;
+    }
+
+    #middle-content .container {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .page-header h1 {
+      font-size: 50px;
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    .page-header h1 {
+      font-size: 50px;
+      padding: 15px 0;
+    }
+
+    #middle-content .container {
+      padding: 0 20px;
+    }
+  }
+
+  @media only screen and (min-width:768px) and (max-width:1000px) {
+    .page-header h1 {
+      font-size: 45px;
+    }
+  }
+
+  @media only screen and (max-width:767px) {
+    .page-header h1 {
+      font-size: 40px;
+      text-align: center !important;
+      line-height: 40px !important;
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width:600px) {
+    .page-header h1 {
+      font-size: 30px;
+      line-height: 27px !important;
+      padding: 5px 0;
+    }
+  }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-thin.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extralight.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-light.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-medium.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-semibold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-bold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extrabold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-heavy.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*! CSS Used from: https://www.printstop.co.in/templates/css/style.css?1556634345 ; media=screen, print */
+@media screen,
+print {
+  img {
+    border: 0;
+  }
+
+  @media print {
+
+    *,
+    *:before,
+    *:after {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    img {
+      page-break-inside: avoid;
+    }
+
+    img {
+      max-width: 100% !important;
+    }
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  .img-responsive,
+  .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hover-box-shadow a.thumbnail img {
+    -webkit-transition: -webkit-transform .4s linear;
+    -moz-transition: -moz-transform .4s linear;
+    -o-transition: -o-transform .4s linear;
+    transition: transform .4s linear;
+    max-width: 200px;
+    width: 100%;
+  }
+
+  .hover-box-shadow a.thumbnail img:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/themes/printstop/css/theme.css?1582636444 ; media=screen, print */
+@media screen,
+print {
+  .hover-box-shadow a.thumbnail img {
+    transition: transform .3s linear 0s;
+    -webkit-transition: transform .3s linear 0s;
+    -moz-transition: transform .3s linear 0s;
+    -o-transition: transform .3s linear 0s;
+    margin: 0;
+  }
+
+  .hover-box-shadow a.thumbnail img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/templates/css/style.css?1556634345 ; media=screen, print */
+@media screen,
+print {
+  a {
+    background-color: transparent;
+  }
+
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+
+  img {
+    border: 0;
+  }
+
+  @media print {
+
+    *,
+    *:before,
+    *:after {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+
+    a[href]:after {
+      content: " ("attr(href) ")";
+    }
+
+    img {
+      page-break-inside: avoid;
+    }
+
+    img {
+      max-width: 100% !important;
+    }
+
+    p,
+    h2 {
+      orphans: 3;
+      widows: 3;
+    }
+
+    h2 {
+      page-break-after: avoid;
+    }
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: #23527c;
+    text-decoration: underline;
+  }
+
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  .img-responsive,
+  .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    margin: 0 0 10px;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width:768px) {
+    .container {
+      width: 750px;
+    }
+  }
+
+  @media (min-width:992px) {
+    .container {
+      width: 970px;
+    }
+  }
+
+  @media (min-width:1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .col-md-3,
+  .col-sm-6,
+  .col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .col-xs-12 {
+    float: left;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+
+  @media (min-width:768px) {
+    .col-sm-6 {
+      float: left;
+    }
+
+    .col-sm-6 {
+      width: 50%;
+    }
+  }
+
+  @media (min-width:992px) {
+    .col-md-3 {
+      float: left;
+    }
+
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+
+  .btn:focus,
+  .btn:active:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+  }
+
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #286090;
+    border-color: #122b40;
+  }
+
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+  }
+
+  .btn-primary:active {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+  }
+
+  .btn-primary:active:hover,
+  .btn-primary:active:focus {
+    color: #fff;
+    background-color: #204d74;
+    border-color: #122b40;
+  }
+
+  .btn-primary:active {
+    background-image: none;
+  }
+
+  .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+  }
+
+  .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  a.thumbnail:hover,
+  a.thumbnail:focus {
+    border-color: #337ab7;
+  }
+
+  .clearfix:before,
+  .clearfix:after,
+  .container:before,
+  .container:after,
+  .row:before,
+  .row:after {
+    display: table;
+    content: " ";
+  }
+
+  .clearfix:after,
+  .container:after,
+  .row:after {
+    clear: both;
+  }
+
+  .visible-sm,
+  .visible-md,
+  .visible-lg {
+    display: none !important;
+  }
+
+  @media (min-width:768px) and (max-width:991px) {
+    .visible-sm {
+      display: block !important;
+    }
+  }
+
+  @media (min-width:992px) and (max-width:1199px) {
+    .visible-md {
+      display: block !important;
+    }
+  }
+
+  @media (min-width:1200px) {
+    .visible-lg {
+      display: block !important;
+    }
+  }
+
+  h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .thumbnail {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+
+  .hover-box-shadow a.thumbnail {
+    overflow: hidden;
+  }
+
+  .hover-box-shadow a.thumbnail img {
+    -webkit-transition: -webkit-transform .4s linear;
+    -moz-transition: -moz-transform .4s linear;
+    -o-transition: -o-transform .4s linear;
+    transition: transform .4s linear;
+    max-width: 200px;
+    width: 100%;
+  }
+
+  .hover-box-shadow a.thumbnail img:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  .product-box {
+    margin-bottom: 20px;
+  }
+
+  .product-box .product-desc {
+    padding: 0 15px;
+  }
+
+  .product-box .thumbnail {
+    overflow: visible;
+  }
+
+  @media (max-width:768px) {
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/themes/printstop/css/theme.css?1582636444 ; media=screen, print */
+@media screen,
+print {
+  h2 {
+    font-family: raleway, sans-serif;
+  }
+
+  a {
+    color: #666;
+  }
+
+  a:hover,
+  a:focus {
+    color: #da251d;
+    outline: none;
+    text-decoration: none;
+  }
+
+  a:active,
+  .btn:focus,
+  .btn:hover {
+    outline: 0 !important;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  .btn {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 6px 18px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+
+  .btn-primary {
+    background-color: #3eab0e;
+    border-color: #3eab0e;
+    color: #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    font-family: raleway, sans-serif;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary:active:focus {
+    background-color: #348b0e;
+    border-color: #348b0e;
+  }
+
+  a.thumbnail:hover,
+  a.thumbnail:focus {
+    border-color: #525252;
+  }
+
+  .product-box h2 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+  }
+
+  .product-box h2 a {
+    color: #000;
+  }
+
+  .product-box h2 a:hover {
+    color: #da251d;
+  }
+
+  .thumbnail {
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .hover-box-shadow a.thumbnail {
+    height: 300px;
+    max-width: 300px;
+  }
+
+  .hover-box-shadow a.thumbnail img {
+    transition: transform .3s linear 0s;
+    -webkit-transition: transform .3s linear 0s;
+    -moz-transition: transform .3s linear 0s;
+    -o-transition: transform .3s linear 0s;
+    margin: 0;
+  }
+
+  .hover-box-shadow .product-desc .desc-text {
+    height: 85px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+
+  .product-box .hover-box-shadow h2 {
+    height: 50px;
+    max-width: 80%;
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+
+  .hover-box-shadow a.thumbnail img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .thumbnail {
+    display: block;
+  }
+
+  #product_category .product-desc {
+    padding-right: 50px;
+  }
+
+  @media screen and (min-width:1440px) {
+    .container {
+      width: 1440px;
+      padding: 0 15px;
+    }
+  }
+
+  @media screen and (max-width:1440px) {
+    .container {
+      width: 100%;
+    }
+
+    #middle-content .container {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .product-box .hover-box-shadow h2 {
+      max-width: 100%;
+      font-size: 22px;
+    }
+
+    .product-box .hover-box-shadow .product-desc .btn {
+      padding: 3px 10px;
+      line-height: 2.2rem;
+      font-size: 13px;
+    }
+
+    .hover-box-shadow a.thumbnail {
+      height: 278px;
+    }
+  }
+
+  @media screen and (min-width:992px) and (max-width:1024px) {
+    .product-desc .btn {
+      font-size: 12px !important;
+    }
+
+    .product-box .hover-box-shadow .product-desc .btn {
+      padding: 3px 10px;
+      line-height: 1.8rem;
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .hover-box-shadow a.thumbnail {
+      height: auto;
+    }
+
+    #product_category .product-desc {
+      padding-right: 15px;
+    }
+  }
+
+  @media only screen and (min-width:768px) and (max-width:1023px) {
+    .product-box .hover-box-shadow .product-desc {
+      max-width: 85%;
+    }
+
+    .product-box .hover-box-shadow .product-desc .btn {
+      float: left;
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    #middle-content .container {
+      padding: 0 20px;
+    }
+
+    .hover-box-shadow a.thumbnail {
+      height: auto;
+    }
+
+    #product_category .product-desc {
+      padding-right: 15px;
+    }
+
+    .product-box .hover-box-shadow .product-desc .btn {
+      float: left;
+    }
+  }
+
+  @media only screen and (max-width:480px) {
+    .product-box h2 {
+      font-size: 20px;
+    }
+
+    #product_category .product-box {
+      margin-bottom: 0;
+    }
+  }
+
+  .product-box {
+    margin-bottom: 8px;
+  }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-thin.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extralight.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-light.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-medium.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-semibold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-bold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extrabold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-heavy.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*! CSS Used from: https://www.printstop.co.in/templates/css/style.css?1556634345 ; media=screen, print */
+@media screen,
+print {
+  a {
+    background-color: transparent;
+  }
+
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+
+  img {
+    border: 0;
+  }
+
+  @media print {
+
+    *,
+    *:before,
+    *:after {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+
+    a[href]:after {
+      content: " ("attr(href) ")";
+    }
+
+    img {
+      page-break-inside: avoid;
+    }
+
+    img {
+      max-width: 100% !important;
+    }
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: #23527c;
+    text-decoration: underline;
+  }
+
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  h4 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  ul ul {
+    margin-bottom: 0;
+  }
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width:768px) {
+    .container {
+      width: 750px;
+    }
+  }
+
+  @media (min-width:992px) {
+    .container {
+      width: 970px;
+    }
+  }
+
+  @media (min-width:1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+  .col-md-2,
+  .col-md-10,
+  .col-sm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  @media (min-width:768px) {
+    .col-sm-12 {
+      float: left;
+    }
+
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
+
+  @media (min-width:992px) {
+
+    .col-md-2,
+    .col-md-10 {
+      float: left;
+    }
+
+    .col-md-10 {
+      width: 83.33333333%;
+    }
+
+    .col-md-2 {
+      width: 16.66666667%;
+    }
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  }
+
+  .dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+  }
+
+  .dropdown-menu>li>a:hover,
+  .dropdown-menu>li>a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+  }
+
+  .navbar-nav {
+    margin: 7.5px -15px;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+  }
+
+  @media (min-width:768px) {
+    .navbar-nav {
+      float: left;
+      margin: 0;
+    }
+
+    .navbar-nav>li {
+      float: left;
+    }
+
+    .navbar-nav>li>a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+
+  .navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .container:before,
+  .container:after {
+    display: table;
+    content: " ";
+  }
+
+  .container:after {
+    clear: both;
+  }
+
+  .visible-xs {
+    display: none !important;
+  }
+
+  @media (max-width:767px) {
+    .visible-xs {
+      display: block !important;
+    }
+  }
+
+  @media (max-width:767px) {
+    .hidden-xs {
+      display: none !important;
+    }
+  }
+
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fa-twitter:before {
+    content: "\f099";
+  }
+
+  .fa-facebook:before {
+    content: "\f09a";
+  }
+
+  .fa-linkedin:before {
+    content: "\f0e1";
+  }
+
+  .fa-youtube-play:before {
+    content: "\f16a";
+  }
+
+  .fa-instagram:before {
+    content: "\f16d";
+  }
+
+  .dropdown-menu {
+    z-index: 2000;
+  }
+
+  .img-shadow {
+    box-shadow: 0 0 4px #666;
+    -webkit-box-shadow: 0 0 4px #666;
+    margin: 0 auto;
+  }
+
+  @media (max-width:768px) {
+    h4 {
+      font-size: 14px;
+    }
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/themes/printstop/css/theme.css?1582636444 ; media=screen, print */
+@media screen,
+print {
+  h4 {
+    font-family: raleway, sans-serif;
+  }
+
+  a {
+    color: #666;
+  }
+
+  a:hover,
+  a:focus {
+    color: #da251d;
+    outline: none;
+    text-decoration: none;
+  }
+
+  a:active {
+    outline: 0 !important;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .navbar-nav>li {
+    font-size: 15px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+
+  .footer-content ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  .footer-content .social h4,
+  .paypall h4 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 0;
+  }
+
+  .footer-content .social li {
+    float: left;
+    list-style: none;
+    margin: 5px 10px;
+    width: auto;
+  }
+
+  .footer-content .social li .fa {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    color: #fff;
+    -webkit-transition: all .6s linear;
+    -moz-transition: all .6s linear;
+    -o-transition: all .6s linear;
+    -ms-transition: all .6s linear;
+    transition: all .6s linear;
+  }
+
+  .social li img {
+    -webkit-transition: all .6s linear;
+    -moz-transition: all .6s linear;
+    -o-transition: all .6s linear;
+    -ms-transition: all .6s linear;
+    transition: all .6s linear;
+    max-width: 34px;
+  }
+
+  .footer-content .social li:hover .fa,
+  .social li:hover img {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+
+  .footer-content .social li .fa-facebook {
+    background: #395a97;
+  }
+
+  .footer-content .social li .fa-twitter {
+    background: #00acec;
+  }
+
+  .footer-content .social li .fa-linkedin {
+    background: #007bb6;
+  }
+
+  .footer-content .social li .fa-instagram {
+    background: #2a58ac;
+  }
+
+  .footer-content .social li .fa-youtube-play {
+    background: #bb1919;
+  }
+
+  .cms-links,
+  .social {
+    padding-top: 10px;
+  }
+
+  .footer-content .cms-links ul ul {
+    padding-left: 0;
+    display: inline-block;
+  }
+
+  .footer-content li a {
+    font-weight: 600;
+    font-size: 17px;
+    color: #ccc;
+    display: inline;
+  }
+
+  .footer-content li {
+    list-style: none;
+    width: 20%;
+  }
+
+  .footer-content li li {
+    width: auto;
+  }
+
+  .footer-content li li a {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 3px 0;
+    white-space: normal;
+  }
+
+  .footer-content li .dropdown-menu>li:hover a {
+    background-color: transparent;
+  }
+
+  .footer-content li a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .dropdown-menu>li:hover a,
+  .dropdown-menu>li:focus a {
+    background: #e8e8e8;
+  }
+
+  img.img-shadow {
+    box-shadow: none;
+  }
+
+  .paypall {
+    clear: both;
+  }
+
+  .newsletter {
+    clear: both;
+    margin-top: 15px;
+    float: left;
+  }
+
+  @media screen and (min-width:1440px) {
+    .container {
+      width: 1440px;
+      padding: 0 15px;
+    }
+
+    .footer-content .cms-links>ul {
+      padding-left: 0;
+      border-right: 1px solid #363636;
+    }
+
+    .footer-content .dropdown-menu {
+      background-color: transparent;
+      position: inherit;
+    }
+
+    .footer-content .dropdown-menu>li>a:hover,
+    .footer-content .dropdown-menu>li>a:focus {
+      background: 0 0;
+    }
+  }
+
+  @media screen and (max-width:1440px) {
+    .container {
+      width: 100%;
+    }
+
+    .footer-content .cms-links>ul {
+      border-right: 1px solid #363636;
+    }
+  }
+
+  @media screen and (min-width:1401px) and (max-width:1440px) {
+    .footer-content .dropdown-menu {
+      background-color: transparent;
+      position: inherit;
+    }
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1400px) {
+    .footer-content .dropdown-menu {
+      display: block;
+      background-color: transparent;
+      position: inherit;
+    }
+
+    .footer-content .dropdown-menu>li>a:hover,
+    .footer-content .dropdown-menu>li>a:focus {
+      background-color: transparent;
+    }
+
+    .cms-links {
+      padding-left: 10px;
+    }
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .footer-content .social li {
+      margin: 5px;
+    }
+
+    .footer-content .social li .fa {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+
+    .footer-content .social li img {
+      max-width: 28px;
+    }
+  }
+
+  @media only screen and (min-width:768px) and (max-width:1023px) {
+    .footer-content .dropdown-menu {
+      display: block;
+      background-color: transparent;
+      position: inherit;
+    }
+
+    .footer-content .dropdown-menu>li>a:hover,
+    .footer-content .dropdown-menu>li>a:focus {
+      background-color: transparent;
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    .cms-links {
+      padding-left: 30px;
+    }
+
+    .footer-content .social li {
+      margin: 0 10px;
+    }
+
+    .cms-links {
+      padding-left: 0;
+    }
+
+    .footer-content .cms-links>ul {
+      border-right: 0 solid #363636;
+    }
+  }
+
+  @media only screen and (max-width:600px) {
+    .cms-links {
+      padding-top: 0;
+    }
+
+    .footer-content .container {
+      padding: 0 15px;
+    }
+  }
+
+  @media only screen and (max-width:420px) {
+    .footer-content .social li .fa {
+      font-size: 15px;
+      height: 37px;
+      width: 37px;
+      line-height: 37px;
+    }
+
+    .footer-content .social li {
+      margin: 0 3px;
+    }
+
+    .social li img {
+      padding-bottom: 0;
+      max-width: 34px;
+    }
+
+    .footer-content ul {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/thirdparty/css/mediaBoxes.css?1546617495 ; media=screen, print */
+@media screen,
+print {
+  .fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fa-twitter:before {
+    content: "\f099";
+  }
+
+  .fa-facebook:before {
+    content: "\f09a";
+  }
+
+  .fa-linkedin:before {
+    content: "\f0e1";
+  }
+
+  .fa-youtube-play:before {
+    content: "\f16a";
+  }
+
+  .fa-instagram:before {
+    content: "\f16d";
+  }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.eot#iefix&v=4.6.3') format('embedded-opentype'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-thin.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extralight.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-light.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-medium.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-semibold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-bold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extrabold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-heavy.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*! CSS Used from: https://www.printstop.co.in/templates/css/style.css?1556634345 ; media=screen, print */
+@media screen,
+print {
+  a {
+    background-color: transparent;
+  }
+
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+
+  @media print {
+
+    *,
+    *:before,
+    *:after {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+
+    a[href]:after {
+      content: " ("attr(href) ")";
+    }
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: #23527c;
+    text-decoration: underline;
+  }
+
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  h4 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  ul ul {
+    margin-bottom: 0;
+  }
+
+  .col-md-10,
+  .col-sm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  @media (min-width:768px) {
+    .col-sm-12 {
+      float: left;
+    }
+
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
+
+  @media (min-width:992px) {
+    .col-md-10 {
+      float: left;
+    }
+
+    .col-md-10 {
+      width: 83.33333333%;
+    }
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  }
+
+  .dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+  }
+
+  .dropdown-menu>li>a:hover,
+  .dropdown-menu>li>a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+  }
+
+  .navbar-nav {
+    margin: 7.5px -15px;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+  }
+
+  @media (min-width:768px) {
+    .navbar-nav {
+      float: left;
+      margin: 0;
+    }
+
+    .navbar-nav>li {
+      float: left;
+    }
+
+    .navbar-nav>li>a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+
+  .navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .visible-xs {
+    display: none !important;
+  }
+
+  @media (max-width:767px) {
+    .visible-xs {
+      display: block !important;
+    }
+  }
+
+  @media (max-width:767px) {
+    .hidden-xs {
+      display: none !important;
+    }
+  }
+
+  .dropdown-menu {
+    z-index: 2000;
+  }
+
+  @media (max-width:768px) {
+    h4 {
+      font-size: 14px;
+    }
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/themes/printstop/css/theme.css?1582636444 ; media=screen, print */
+@media screen,
+print {
+  h4 {
+    font-family: raleway, sans-serif;
+  }
+
+  a {
+    color: #666;
+  }
+
+  a:hover,
+  a:focus {
+    color: #da251d;
+    outline: none;
+    text-decoration: none;
+  }
+
+  a:active {
+    outline: 0 !important;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .navbar-nav>li {
+    font-size: 15px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+
+  .footer-content ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  .cms-links {
+    padding-top: 10px;
+  }
+
+  .footer-content .cms-links ul ul {
+    padding-left: 0;
+    display: inline-block;
+  }
+
+  .footer-content li a {
+    font-weight: 600;
+    font-size: 17px;
+    color: #ccc;
+    display: inline;
+  }
+
+  .footer-content li {
+    list-style: none;
+    width: 20%;
+  }
+
+  .footer-content li li {
+    width: auto;
+  }
+
+  .footer-content li li a {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 3px 0;
+    white-space: normal;
+  }
+
+  .footer-content li .dropdown-menu>li:hover a {
+    background-color: transparent;
+  }
+
+  .footer-content li a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .dropdown-menu>li:hover a,
+  .dropdown-menu>li:focus a {
+    background: #e8e8e8;
+  }
+
+  @media screen and (min-width:1440px) {
+    .footer-content .cms-links>ul {
+      padding-left: 0;
+      border-right: 1px solid #363636;
+    }
+
+    .footer-content .dropdown-menu {
+      background-color: transparent;
+      position: inherit;
+    }
+
+    .footer-content .dropdown-menu>li>a:hover,
+    .footer-content .dropdown-menu>li>a:focus {
+      background: 0 0;
+    }
+  }
+
+  @media screen and (max-width:1440px) {
+    .footer-content .cms-links>ul {
+      border-right: 1px solid #363636;
+    }
+  }
+
+  @media screen and (min-width:1401px) and (max-width:1440px) {
+    .footer-content .dropdown-menu {
+      background-color: transparent;
+      position: inherit;
+    }
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1400px) {
+    .footer-content .dropdown-menu {
+      display: block;
+      background-color: transparent;
+      position: inherit;
+    }
+
+    .footer-content .dropdown-menu>li>a:hover,
+    .footer-content .dropdown-menu>li>a:focus {
+      background-color: transparent;
+    }
+
+    .cms-links {
+      padding-left: 10px;
+    }
+  }
+
+  @media only screen and (min-width:768px) and (max-width:1023px) {
+    .footer-content .dropdown-menu {
+      display: block;
+      background-color: transparent;
+      position: inherit;
+    }
+
+    .footer-content .dropdown-menu>li>a:hover,
+    .footer-content .dropdown-menu>li>a:focus {
+      background-color: transparent;
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    .cms-links {
+      padding-left: 30px;
+    }
+
+    .cms-links {
+      padding-left: 0;
+    }
+
+    .footer-content .cms-links>ul {
+      border-right: 0 solid #363636;
+    }
+  }
+
+  @media only screen and (max-width:600px) {
+    .cms-links {
+      padding-top: 0;
+    }
+  }
+
+  @media only screen and (max-width:420px) {
+    .footer-content ul {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-thin.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extralight.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-light.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-medium.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-semibold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-bold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extrabold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-heavy.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*! CSS Used from: https://www.printstop.co.in/templates/css/style.css?1556634345 ; media=screen, print */
+@media screen,
+print {
+  a {
+    background-color: transparent;
+  }
+
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+
+  @media print {
+
+    *,
+    *:before,
+    *:after {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+
+    a[href]:after {
+      content: " ("attr(href) ")";
+    }
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: #23527c;
+    text-decoration: underline;
+  }
+
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  h4 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  ul ul {
+    margin-bottom: 0;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  }
+
+  .dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+  }
+
+  .dropdown-menu>li>a:hover,
+  .dropdown-menu>li>a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+  }
+
+  @media (min-width:768px) {
+    .navbar-nav>li {
+      float: left;
+    }
+  }
+
+  .navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  @media (max-width:767px) {
+    .hidden-xs {
+      display: none !important;
+    }
+  }
+
+  .dropdown-menu {
+    z-index: 2000;
+  }
+
+  @media (max-width:768px) {
+    h4 {
+      font-size: 14px;
+    }
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/themes/printstop/css/theme.css?1582636444 ; media=screen, print */
+@media screen,
+print {
+  h4 {
+    font-family: raleway, sans-serif;
+  }
+
+  a {
+    color: #666;
+  }
+
+  a:hover,
+  a:focus {
+    color: #da251d;
+    outline: none;
+    text-decoration: none;
+  }
+
+  a:active {
+    outline: 0 !important;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .navbar-nav>li {
+    font-size: 15px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+
+  .footer-content ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  .footer-content .cms-links ul ul {
+    padding-left: 0;
+    display: inline-block;
+  }
+
+  .footer-content li a {
+    font-weight: 600;
+    font-size: 17px;
+    color: #ccc;
+    display: inline;
+  }
+
+  .footer-content li {
+    list-style: none;
+    width: 20%;
+  }
+
+  .footer-content li li {
+    width: auto;
+  }
+
+  .footer-content li li a {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 3px 0;
+    white-space: normal;
+  }
+
+  .footer-content li .dropdown-menu>li:hover a {
+    background-color: transparent;
+  }
+
+  .footer-content li a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .dropdown-menu>li:hover a,
+  .dropdown-menu>li:focus a {
+    background: #e8e8e8;
+  }
+
+  @media screen and (min-width:1440px) {
+    .footer-content .dropdown-menu {
+      background-color: transparent;
+      position: inherit;
+    }
+
+    .footer-content .dropdown-menu>li>a:hover,
+    .footer-content .dropdown-menu>li>a:focus {
+      background: 0 0;
+    }
+  }
+
+  @media screen and (min-width:1401px) and (max-width:1440px) {
+    .footer-content .dropdown-menu {
+      background-color: transparent;
+      position: inherit;
+    }
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1400px) {
+    .footer-content .dropdown-menu {
+      display: block;
+      background-color: transparent;
+      position: inherit;
+    }
+
+    .footer-content .dropdown-menu>li>a:hover,
+    .footer-content .dropdown-menu>li>a:focus {
+      background-color: transparent;
+    }
+  }
+
+  @media only screen and (min-width:768px) and (max-width:1023px) {
+    .footer-content .dropdown-menu {
+      display: block;
+      background-color: transparent;
+      position: inherit;
+    }
+
+    .footer-content .dropdown-menu>li>a:hover,
+    .footer-content .dropdown-menu>li>a:focus {
+      background-color: transparent;
+    }
+  }
+
+  @media only screen and (max-width:420px) {
+    .footer-content ul {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-thin.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extralight.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-light.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-medium.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-semibold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-bold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extrabold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-heavy.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*! CSS Used from: https://www.printstop.co.in/templates/css/style.css?1556634345 ; media=screen, print */
+@media screen,
+print {
+  a {
+    background-color: transparent;
+  }
+
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+
+  img {
+    border: 0;
+  }
+
+  @media print {
+
+    *,
+    *:before,
+    *:after {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+
+    a[href]:after {
+      content: " ("attr(href) ")";
+    }
+
+    img {
+      page-break-inside: avoid;
+    }
+
+    img {
+      max-width: 100% !important;
+    }
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: #23527c;
+    text-decoration: underline;
+  }
+
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  h4 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .col-md-2,
+  .col-sm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  @media (min-width:768px) {
+    .col-sm-12 {
+      float: left;
+    }
+
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
+
+  @media (min-width:992px) {
+    .col-md-2 {
+      float: left;
+    }
+
+    .col-md-2 {
+      width: 16.66666667%;
+    }
+  }
+
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fa-twitter:before {
+    content: "\f099";
+  }
+
+  .fa-facebook:before {
+    content: "\f09a";
+  }
+
+  .fa-linkedin:before {
+    content: "\f0e1";
+  }
+
+  .fa-youtube-play:before {
+    content: "\f16a";
+  }
+
+  .fa-instagram:before {
+    content: "\f16d";
+  }
+
+  .img-shadow {
+    box-shadow: 0 0 4px #666;
+    -webkit-box-shadow: 0 0 4px #666;
+    margin: 0 auto;
+  }
+
+  @media (max-width:768px) {
+    h4 {
+      font-size: 14px;
+    }
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/themes/printstop/css/theme.css?1582636444 ; media=screen, print */
+@media screen,
+print {
+  h4 {
+    font-family: raleway, sans-serif;
+  }
+
+  a {
+    color: #666;
+  }
+
+  a:hover,
+  a:focus {
+    color: #da251d;
+    outline: none;
+    text-decoration: none;
+  }
+
+  a:active {
+    outline: 0 !important;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .footer-content ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  .footer-content .social h4,
+  .paypall h4 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 0;
+  }
+
+  .footer-content .social li {
+    float: left;
+    list-style: none;
+    margin: 5px 10px;
+    width: auto;
+  }
+
+  .footer-content .social li .fa {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    color: #fff;
+    -webkit-transition: all .6s linear;
+    -moz-transition: all .6s linear;
+    -o-transition: all .6s linear;
+    -ms-transition: all .6s linear;
+    transition: all .6s linear;
+  }
+
+  .social li img {
+    -webkit-transition: all .6s linear;
+    -moz-transition: all .6s linear;
+    -o-transition: all .6s linear;
+    -ms-transition: all .6s linear;
+    transition: all .6s linear;
+    max-width: 34px;
+  }
+
+  .footer-content .social li:hover .fa,
+  .social li:hover img {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+
+  .footer-content .social li .fa-facebook {
+    background: #395a97;
+  }
+
+  .footer-content .social li .fa-twitter {
+    background: #00acec;
+  }
+
+  .footer-content .social li .fa-linkedin {
+    background: #007bb6;
+  }
+
+  .footer-content .social li .fa-instagram {
+    background: #2a58ac;
+  }
+
+  .footer-content .social li .fa-youtube-play {
+    background: #bb1919;
+  }
+
+  .social {
+    padding-top: 10px;
+  }
+
+  .footer-content li a {
+    font-weight: 600;
+    font-size: 17px;
+    color: #ccc;
+    display: inline;
+  }
+
+  .footer-content li {
+    list-style: none;
+    width: 20%;
+  }
+
+  .footer-content li a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  img.img-shadow {
+    box-shadow: none;
+  }
+
+  .paypall {
+    clear: both;
+  }
+
+  .newsletter {
+    clear: both;
+    margin-top: 15px;
+    float: left;
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .footer-content .social li {
+      margin: 5px;
+    }
+
+    .footer-content .social li .fa {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+
+    .footer-content .social li img {
+      max-width: 28px;
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    .footer-content .social li {
+      margin: 0 10px;
+    }
+  }
+
+  @media only screen and (max-width:420px) {
+    .footer-content .social li .fa {
+      font-size: 15px;
+      height: 37px;
+      width: 37px;
+      line-height: 37px;
+    }
+
+    .footer-content .social li {
+      margin: 0 3px;
+    }
+
+    .social li img {
+      padding-bottom: 0;
+      max-width: 34px;
+    }
+
+    .footer-content ul {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/thirdparty/css/mediaBoxes.css?1546617495 ; media=screen, print */
+@media screen,
+print {
+  .fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fa-twitter:before {
+    content: "\f099";
+  }
+
+  .fa-facebook:before {
+    content: "\f09a";
+  }
+
+  .fa-linkedin:before {
+    content: "\f0e1";
+  }
+
+  .fa-youtube-play:before {
+    content: "\f16a";
+  }
+
+  .fa-instagram:before {
+    content: "\f16d";
+  }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.eot#iefix&v=4.6.3') format('embedded-opentype'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('https://www.printstop.co.in/thirdparty/css/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-thin.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extralight.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-light.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-medium.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-semibold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-bold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extrabold.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://www.printstop.co.in/themes/printstop/fonts/raleway-heavy.woff2) format('woff2'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.woff) format('woff'), url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*! CSS Used from: https://www.printstop.co.in/templates/css/style.css?1556634345 ; media=screen, print */
+@media screen,
+print {
+  img {
+    border: 0;
+  }
+
+  @media print {
+
+    *,
+    *:before,
+    *:after {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    img {
+      page-break-inside: avoid;
+    }
+
+    img {
+      max-width: 100% !important;
+    }
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-shadow {
+    box-shadow: 0 0 4px #666;
+    -webkit-box-shadow: 0 0 4px #666;
+    margin: 0 auto;
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/themes/printstop/css/theme.css?1582636444 ; media=screen, print */
+@media screen,
+print {
+  .social li img {
+    -webkit-transition: all .6s linear;
+    -moz-transition: all .6s linear;
+    -o-transition: all .6s linear;
+    -ms-transition: all .6s linear;
+    transition: all .6s linear;
+    max-width: 34px;
+  }
+
+  .social li:hover img {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+
+  img.img-shadow {
+    box-shadow: none;
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .footer-content .social li img {
+      max-width: 28px;
+    }
+  }
+
+  @media only screen and (max-width:420px) {
+    .social li img {
+      padding-bottom: 0;
+      max-width: 34px;
+    }
+  }
+}
+
+/*! CSS Used from: https://www.printstop.co.in/templates/css/style.css?1556634345 ; media=screen, print */
+@media screen, print{
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+img{border:0;}
+@media print{
+*,*:before,*:after{color:#000!important;text-shadow:none!important;background:transparent!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+img{page-break-inside:avoid;}
+img{max-width:100%!important;}
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+a{color:#337ab7;text-decoration:none;}
+a:hover,a:focus{color:#23527c;text-decoration:underline;}
+a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+img{vertical-align:middle;}
+.img-responsive{display:block;max-width:100%;height:auto;}
+ul{margin-top:0;margin-bottom:10px;}
+ul ul{margin-bottom:0;}
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:768px){
+.container{width:750px;}
+}
+@media (min-width:992px){
+.container{width:970px;}
+}
+@media (min-width:1200px){
+.container{width:1170px;}
+}
+.row{margin-right:-15px;margin-left:-15px;}
+.col-sm-4,.col-md-6,.col-sm-8,.col-sm-12,.col-md-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px;}
+@media (min-width:768px){
+.col-sm-4,.col-sm-8,.col-sm-12{float:left;}
+.col-sm-12{width:100%;}
+.col-sm-8{width:66.66666667%;}
+.col-sm-4{width:33.33333333%;}
+}
+@media (min-width:992px){
+.col-md-6,.col-md-12{float:left;}
+.col-md-12{width:100%;}
+.col-md-6{width:50%;}
+}
+.nav{padding-left:0;margin-bottom:0;list-style:none;}
+.nav>li{position:relative;display:block;}
+.nav>li>a{position:relative;display:block;padding:10px 15px;}
+.nav>li>a:hover,.nav>li>a:focus{text-decoration:none;background-color:#eee;}
+.navbar-nav{margin:7.5px -15px;}
+.navbar-nav>li>a{padding-top:10px;padding-bottom:10px;line-height:20px;}
+@media (min-width:768px){
+.navbar-nav{float:left;margin:0;}
+.navbar-nav>li{float:left;}
+.navbar-nav>li>a{padding-top:15px;padding-bottom:15px;}
+}
+.navbar-default .navbar-nav>li>a{color:#777;}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus{color:#333;background-color:transparent;}
+.container:before,.container:after,.row:before,.row:after,.nav:before,.nav:after{display:table;content:" ";}
+.container:after,.row:after,.nav:after{clear:both;}
+}
+/*! CSS Used from: https://www.printstop.co.in/themes/printstop/css/theme.css?1582636444 ; media=screen, print */
+@media screen, print{
+a{color:#666;}
+a:hover,a:focus{color:#da251d;outline:none;text-decoration:none;}
+a:active{outline:0!important;}
+.navbar-nav>li{font-size:15px;-webkit-transition:all .25s ease;-moz-transition:all .25s ease;-ms-transition:all .25s ease;-o-transition:all .25s ease;transition:all .25s ease;}
+.navbar-default .navbar-nav>li>a{color:rgba(0,0,0,.5);font-size:22px;padding:0 15px 4px;position:relative;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease;height:30px;line-height:30px;}
+.navbar-default .navbar-nav>li>a:focus{color:rgba(0,0,0,.5);}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:hover span{color:#da251d;}
+.nav>li>a:hover,.nav>li>a:focus{background-color:#fff;text-decoration:none;}
+.topnav .navbar-nav>li>a{height:60px;}
+.products-dropdown .container{padding:0;}
+#category_menu_collapse{width:100%;text-align:center;}
+#category_menu_collapse img{margin:0 auto;}
+#category_menu_collapse li a img{width:inherit;padding-bottom:5px;}
+#category_menu_collapse li .hover-text a img{padding-bottom:0;display:block;min-height:98px;width:auto;}
+#category_menu_collapse li{font-size:13px;text-align:center;font-weight:300;margin:0 0 0;line-height:16px;position:inherit;cursor:pointer;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease;float:none;display:inline-block;}
+#category_menu_collapse li span{display:inline-block;}
+#category_menu_collapse li .hover-text span{display:inline-block;width:auto;color:#fff;}
+#category_menu_collapse li.header_prod_cat:first-child>a{font-weight:600;color:#333;}
+#category_menu_collapse li a{color:#666;display:block;padding:13px 20px 10px;height:auto;font-size:14px;line-height:inherit;border-bottom:3px solid transparent;}
+#category_menu_collapse li:hover a{text-decoration:none;border-bottom:3px solid #da251e;}
+#category_menu_collapse li:hover .hover-text a{text-decoration:none;border-bottom:0 solid #da251e;padding:0!important;display:block;min-height:inherit;}
+#category_menu_collapse li .hover-text{position:absolute;width:100%;display:none;background:#ededed;z-index:-999999;left:0;padding:20px 0;text-align:left;cursor:auto;}
+#category_menu_collapse li:hover .hover-text{z-index:999999;-webkit-box-shadow:0 5px 7px 0 rgba(0,0,0,.27);-moz-box-shadow:0 5px 7px 0 rgba(0,0,0,.27);box-shadow:0 5px 7px 0 rgba(0,0,0,.27);border-top:1px solid #efefef;}
+#category_menu_collapse li .hover-text ul{width:auto;float:left;padding:0 45px 0 0;margin-top:0;}
+#category_menu_collapse li .hover-text li{height:auto;width:auto;display:block;list-style:none;padding:8px 0;text-align:left;margin:0;}
+#category_menu_collapse li .hover-text li a{min-height:inherit;border-bottom:0;font-size:13px;font-weight:500;}
+#category_menu_collapse li .hover-text li a.all-product{font-size:12px;font-weight:700;}
+#category_menu_collapse li .hover-text li a:hover{color:#e84748;}
+#category_menu_collapse li.group_cat ul{width:100%;}
+#category_menu_collapse li.group_cat .hover-text ul:last-child ul{padding:0;}
+#category_menu_collapse li.group_cat .cat-pro>ul>li{float:left;width:auto;padding:0 40px 0 0;min-width:150px;}
+#category_menu_collapse li.group_cat .cat-pro>ul>li>a{line-height:35px;}
+#category_menu_collapse li.group_cat .cat-pro li li{width:100%;padding:7px 0 8px;}
+#category_menu_collapse li.group_cat li:first-child a{padding-top:0;line-height:inherit;}
+.nav-img-583{overflow:hidden;position:relative;}
+.nav-img{width:100%;overflow:hidden;position:relative;}
+.nav-caption{position:absolute;bottom:0;font-size:14px;font-weight:500;color:#fff;background:rgba(0,0,0,.7);padding:10px 15px;width:100%;line-height:20px;-webkit-transition:all .6s ease;-moz-transition:all .6s ease;-ms-transition:all .6s ease;-o-transition:all .6s ease;transition:all .6s ease;}
+.text-23{font-size:23px;font-weight:700;}
+.main-nav .navbar-nav>li span{font-size:14px;font-family:raleway,sans-serif;display:block;color:#333;font-weight:600;}
+.hover-text .container{padding:0 15px;}
+@media screen and (min-width:1440px){
+.products-dropdown .container,#category_menu_collapse .hover-text .container{margin:0 auto;width:1440px;}
+.container{width:1440px;padding:0 15px;}
+#category_menu_collapse li{margin:0 0 0;float:none;display:inline-block;}
+}
+@media screen and (max-width:1440px){
+.container{width:100%;}
+header .container{padding-left:30px;padding-right:30px;}
+.products-dropdown .hover-text .container{padding-left:55px;padding-right:45px;}
+#category_menu_collapse li.group_cat .cat-pro>ul>li{padding:0 25px 0 0;}
+}
+@media screen and (min-width:1280px) and (max-width:1440px){
+#category_menu_collapse li a{padding:16px 10px 8px!important;font-size:14px!important;}
+.main-nav .navbar-nav>li span{font-size:14px!important;}
+}
+@media screen and (min-width:1024px) and (max-width:1400px){
+#category_menu_collapse li a{padding:18px 12px 13px;font-size:12px;}
+.main-nav .navbar-nav>li span{font-size:12px;}
+.nav-img-583{width:100%;overflow:hidden;position:relative;}
+#category_menu_collapse li .hover-text li{padding:8px 0;}
+#category_menu_collapse li .hover-text .nav-img img{max-height:190px;}
+}
+@media screen and (min-width:992px) and (max-width:1024px){
+#category_menu_collapse li a{padding:18px 5px;font-size:12px;}
+.main-nav .navbar-nav>li span{font-size:12px;}
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+.navbar-default .navbar-nav>li>a{padding:0 10px 4px;}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+.nav-img-583{width:100%;overflow:hidden;position:relative;}
+#category_menu_collapse li .hover-text li{padding:4px 0;}
+#category_menu_collapse li{font-size:12px;margin:25px 8px 5px;}
+#category_menu_collapse li:first-child>a{padding-top:0;font-size:12px;height:36px;}
+#category_menu_collapse li span{width:60px;font-size:12px;height:36px;}
+#category_menu_collapse li a{padding:0 0;}
+#category_menu_collapse li .hover-text li a{height:auto;}
+}
+@media only screen and (max-width:768px){
+#category_menu_collapse li{font-size:12px;margin:25px 8px 5px;}
+#category_menu_collapse li:first-child>a{padding-top:0;font-size:12px;height:36px;}
+#category_menu_collapse li .hover-text li a{height:auto;}
+.products-dropdown .hover-text .container{padding-left:30px;padding-right:30px;}
+#category_menu_collapse li a{padding:0 0;}
+#category_menu_collapse li a img{max-width:100%;}
+header .container{padding:0 20px;}
+}
+@media only screen and (min-width:600px) and (max-width:767px){
+.topnav.navbar-default .navbar-nav>li>a:hover,.topnav.navbar-default .navbar-nav>li>a:focus{color:rgba(255,255,255,.7);text-decoration:none;}
+}
+@media only screen and (max-width:600px){
+.topnav.navbar-default .navbar-nav>li>a:hover,.topnav.navbar-default .navbar-nav>li>a:focus{color:rgba(255,255,255,.7);text-decoration:none;}
+}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:raleway;font-style:normal;font-weight:100;src:url(https://www.printstop.co.in/themes/printstop/fonts/raleway-thin.woff2) format('woff2'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.woff) format('woff'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-thin.ttf) format('truetype');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;}
+@font-face{font-family:raleway;font-style:normal;font-weight:200;src:url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extralight.woff2) format('woff2'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.woff) format('woff'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extralight.ttf) format('truetype');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;}
+@font-face{font-family:raleway;font-style:normal;font-weight:300;src:url(https://www.printstop.co.in/themes/printstop/fonts/raleway-light.woff2) format('woff2'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.woff) format('woff'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-light.ttf) format('truetype');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;}
+@font-face{font-family:raleway;font-style:normal;font-weight:400;src:url(https://www.printstop.co.in/themes/printstop/fonts/raleway.woff2) format('woff2'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.woff) format('woff'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway.ttf) format('truetype');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;}
+@font-face{font-family:raleway;font-style:normal;font-weight:500;src:url(https://www.printstop.co.in/themes/printstop/fonts/raleway-medium.woff2) format('woff2'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.woff) format('woff'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-medium.ttf) format('truetype');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;}
+@font-face{font-family:raleway;font-style:normal;font-weight:600;src:url(https://www.printstop.co.in/themes/printstop/fonts/raleway-semibold.woff2) format('woff2'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.woff) format('woff'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-semibold.ttf) format('truetype');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;}
+@font-face{font-family:raleway;font-style:normal;font-weight:700;src:url(https://www.printstop.co.in/themes/printstop/fonts/raleway-bold.woff2) format('woff2'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.woff) format('woff'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-bold.ttf) format('truetype');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;}
+@font-face{font-family:raleway;font-style:normal;font-weight:800;src:url(https://www.printstop.co.in/themes/printstop/fonts/raleway-extrabold.woff2) format('woff2'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.woff) format('woff'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-extrabold.ttf) format('truetype');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;}
+@font-face{font-family:raleway;font-style:normal;font-weight:900;src:url(https://www.printstop.co.in/themes/printstop/fonts/raleway-heavy.woff2) format('woff2'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.woff) format('woff'),url(https://www.printstop.co.in/thirdparty/css/fonts/raleway-heavy.ttf) format('truetype');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;}
